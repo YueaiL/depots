@@ -1,0 +1,14 @@
+E:\project\C#\depots\obj\Debug\depots.csprojAssemblyReference.cache
+E:\project\C#\depots\obj\Debug\depots.Properties.Resources.resources
+E:\project\C#\depots\obj\Debug\depots.csproj.GenerateResource.cache
+E:\project\C#\depots\obj\Debug\depots.csproj.CoreCompileInputs.cache
+E:\project\C#\depots\bin\Debug\depots.exe.config
+E:\project\C#\depots\bin\Debug\depots.exe
+E:\project\C#\depots\bin\Debug\depots.pdb
+E:\project\C#\depots\obj\Debug\depots.exe
+E:\project\C#\depots\obj\Debug\depots.pdb
+E:\project\C#\depots\obj\Debug\depots.Form1.resources
+E:\project\C#\depots\bin\Debug\depots.exe.manifest
+E:\project\C#\depots\bin\Debug\depots.application
+E:\project\C#\depots\obj\Debug\depots.exe.manifest
+E:\project\C#\depots\obj\Debug\depots.application
