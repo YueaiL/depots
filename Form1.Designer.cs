@@ -62,7 +62,8 @@ namespace depots
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.logBox = new System.Windows.Forms.RichTextBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -394,7 +395,8 @@ namespace depots
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.progressBar1);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.progressBar);
             this.groupBox1.Controls.Add(this.logBox);
             this.groupBox1.Location = new System.Drawing.Point(266, 8);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -410,16 +412,25 @@ namespace depots
             this.logBox.Location = new System.Drawing.Point(11, 16);
             this.logBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.logBox.Name = "logBox";
-            this.logBox.Size = new System.Drawing.Size(248, 161);
+            this.logBox.Size = new System.Drawing.Size(248, 159);
             this.logBox.TabIndex = 0;
             this.logBox.Text = "";
             // 
-            // progressBar1
+            // progressBar
             // 
-            this.progressBar1.Location = new System.Drawing.Point(11, 183);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(248, 17);
-            this.progressBar1.TabIndex = 1;
+            this.progressBar.Location = new System.Drawing.Point(44, 180);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(215, 20);
+            this.progressBar.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 184);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(29, 12);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "进度";
             // 
             // Form1
             // 
@@ -440,6 +451,7 @@ namespace depots
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -478,7 +490,8 @@ namespace depots
         private System.Windows.Forms.Button insertTables;
         private System.Windows.Forms.TextBox delAttribute;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.Label label12;
     }
 }
 

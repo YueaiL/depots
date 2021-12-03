@@ -175,7 +175,9 @@ namespace depots
             //{
             //    return "abc";
             //};
-            
+            progressBar.ResetText();
+            progressBar.Value = 0;
+            progressBar.Style = ProgressBarStyle.Blocks;
             RunAsync(() =>
             {
                 RunInMainThread(() =>
